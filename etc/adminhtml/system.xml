@@ -1,0 +1,24 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="chatra_custom_config" translate="label" sortOrder="100">
+            <label>Chatra Live Chat</label>
+        </tab>
+        <section id="chatra" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Settings</label>
+            <tab>chatra_custom_config</tab>
+            <resource>Chatra_Livechat::config</resource>
+            <group id="general" translate="label" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General Configuration</label>
+				<comment>
+                    <![CDATA[Signup for a free Chatra account at 
+                    <a href="http://app.chatra.io/" target="_blank">app.chatra.io</a>,<br>then copy and paste Widget code from Setup & Customize section into the form below:]]>
+                    </comment>
+                <field id="chatra_code" type="textarea" translate="label" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Chatra Code</label>
+					<frontend_class>chatra-code-textarea</frontend_class>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
