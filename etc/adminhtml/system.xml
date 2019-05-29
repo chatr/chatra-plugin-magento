@@ -12,7 +12,7 @@
                 <label>General Configuration</label>
 				<comment>
                     <![CDATA[Signup for a free Chatra account at 
-                    <a href="http://app.chatra.io/" target="_blank">app.chatra.io</a>,<br>then copy and paste Widget code from Setup & Customize section into the form below:]]>
+                    <a href="https://app.chatra.io/?utm_source=magento" target="_blank">app.chatra.io</a>,<br>then copy and paste Widget code from <b>Setup & Customize</b> section into the form below:]]>
                     </comment>
                 <field id="chatra_code" type="textarea" translate="label" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Chatra Code</label>
