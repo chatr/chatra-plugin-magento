@@ -1,11 +1,16 @@
 {
 	"name": "chatra/plugin-magento",
     "description": "Live chat for your store",
-	"require": {
-		"php": ">5.0 <7.4.0"
-	},
+	"homepage": "https://github.com/chatr/chatra-plugin-magento",
 	"type": "magento2-module",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Denis Olesik",
+			"email": "support@chatra.io",
+			"homepage": "https://chatra.io"
+		}
+	],
 	"license": [
 		"OSL-3.0",
 		"AFL-3.0"
